@@ -22,8 +22,9 @@ Ale pozor! Pokud hráč kdykoliv narazí i jen na jedinou špatnou odpověď, zt
 
 1. Ujistěte se, že máte nainstalované **Node.js**:
 2. Naklonujte repozitář a v příkazové řádce přejděte do složky projektu.
-3. Instalace komponent:  
-   `npm install`
+3. Instalace závislostí:  
+   `npm install`  
+   *(Poznámka: repozitář obsahuje `.npmrc` soubor, který automaticky řeší případné závislosti přes `legacy-peer-deps`, instalace by tak měla proběhnout hladce.)*
 4. Spuštění vývojového serveru:  
    `npm run dev`
 5. Pro vytvoření produkčního / PWA mobilního buildu slouží příkaz:  
