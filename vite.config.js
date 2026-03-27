@@ -10,7 +10,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Vědomostní Risk',
-        short_name: 'Risk Trivia',
+        short_name: 'Pudovka',
         description: 'Vědomostní hra pro více hráčů',
         theme_color: '#0f172a',
         background_color: '#0f172a',
