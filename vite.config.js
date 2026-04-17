@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/pudovka/',
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Vědomostní Risk',
-        short_name: 'Risk Trivia',
+        short_name: 'Pudovka',
         description: 'Vědomostní hra pro více hráčů',
         theme_color: '#0f172a',
         background_color: '#0f172a',
